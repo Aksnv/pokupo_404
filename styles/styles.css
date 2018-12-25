@@ -1,101 +1,33 @@
-@font-face {
-  font-family: 'proxima_nova_rgregular';
-  src: url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'),
-       url('../fonts/proxima_nova_regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+/* Page 404 */
+
+.pokupo-404 {
+  margin-bottom: 120px;
+  padding-top: 100px;
 }
 
-@font-face {
-  font-family: 'proxima_nova_rgbold';
-  src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
-       url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'proxima_nova_thextrabold';
-  src: url('../fonts/proxima_nova_extrabold-webfont.woff2') format('woff2'),
-       url('../fonts/proxima_nova_extrabold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Main layout styles */   
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'proxima_nova_rgregular';
-  font-size: 15px;
-  font-style: normal;
-  color: #ffffff;
-}
-
-.container {
-  position: relative;
-  width: 960px;
-  margin: 0 auto;
-}
-
-section {
-  padding-bottom: 40px;
-}
-
-h2 {
-  font-family: 'proxima_nova_rgbold';
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  margin-bottom: 24px;
-  padding-top: 36px;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-strong {
-  font-family: 'proxima_nova_thextrabold';
-}
-
-a.button {
-  display: block;
-  width: 326px;
-  height: 66px;
-  font-family: 'proxima_nova_rgbold';
-  font-size: 20px;
-  line-height: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar {
-    width: 4px;
-    padding-right: 9px
-}
-
-::-webkit-scrollbar-track {
-    background: #fff
-}
-
-::-webkit-scrollbar-thumb {
-    color: #ffa800;
-    background: #ffa800
+.pokupo-404 h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: black;
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
 
-  .container {
-    width: 690px;
+  section.pokupo-404 {
+    display: block;
+  }
+
+  .pokupo-404 {
+    padding-top: 35px;
+  }
+
+  .container--404 {
+    width: 670px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 }
@@ -103,8 +35,8 @@ a.button {
 
 @media screen and (max-width: 749px) {
 
-  .container {
-    width: 320px;
+  .container--404 {
+    width: 360px;
   }
 
 }
