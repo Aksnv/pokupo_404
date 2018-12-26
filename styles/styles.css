@@ -1,22 +1,48 @@
 /* Page 404 */
 
 .pokupo-404 {
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 120px;
   padding-top: 100px;
 }
 
 .pokupo-404 h1 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 45px;
   font-weight: 300;
   margin-bottom: 20px;
   color: black;
 }
 
+.pokupo-404 h1 + p {
+  font-size: 14px;
+}
+
+.pokupo-404 section {
+  padding-top: 20px;
+}
+
+.pokupo-404 section > p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
 .pokupo-404 li {
   display: inline-block;
   vertical-align: top;
   width: 230px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.pokupo-404 li span {
+  line-height: 16px;
+}
+
+.pokupo-404 img {
+  display: block;
+  width: 64px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 
