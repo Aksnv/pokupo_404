@@ -13,6 +13,12 @@
   color: black;
 }
 
+.pokupo-404 li {
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+}
+
 
 @media screen and (max-width: 1023px) {
 
@@ -24,19 +30,19 @@
     padding-top: 35px;
   }
 
-  .container--404 {
+  /* .container--404 {
     width: 670px;
     padding-left: 0;
     padding-right: 0;
-  }
+  } */
 
 }
 
 
 @media screen and (max-width: 749px) {
 
-  .container--404 {
+  /* .container--404 {
     width: 360px;
-  }
+  } */
 
 }
